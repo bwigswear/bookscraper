@@ -142,18 +142,6 @@ def main():
     parse_related_lists(query_book)
 
     print(similar_books)
-    
-    """
-    Things that I need to do:
-    1. Get OpenAI credits to test compare_books
-    2. Test parse_related_lists after compare_books is done
-    3. Add option to say that the query book is incorrect
-    4. Add options to reduce queries made to GPT and GoodReads.com
-    5. Add additional comparison vectors and a way to weight them
-    6. Add a check to see if the book has a Wikipedia synopsis since those are longer
-
-    """
-
 
 
 if __name__ == "__main__":
